@@ -1,4 +1,5 @@
-const people = require("./lib/peoples.js");
+import {people} from "./lib/peoples.mjs";
+
 console.log(people);
 
 hello(people);
