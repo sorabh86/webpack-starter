@@ -1,0 +1,18 @@
+{
+  "name": "jsmodulebundlestarter",
+  "version": "1.0.0",
+  "description": "Starter project with webpack and babel for generate automatic bundles for older browser.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "manual_compile": "webpack --entry ./app.js -o ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0"
+  }
+}
